@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">iCPR</string>
+    <string name="title_activity_perform_cpr">Step 1:</string>
+    <string name="step_1_instructions">Check the patient’s responsiveness. Shake the unresponsive person by the shoulders and speak loudly to them in an attempt to rouse them.</string>
+    <string name ="title_activity_Step2"> Step 2: </string>
+    <string name="step_2_instructions">Check their breathing and pulse. Can you see their chest rising and falling indicating that they are breathing and exchanging oxygen? Can you find a pulse in their neck?  If not, the person is likely in need of CPR.</string>
+    <string name ="title_activity_Step3"> Step 3: </string>
+    <string name="step_3_instructions">Call 911. Operators are trained to provide coaching over the phone and can talk you through the steps for administering CPR until emergency medical technicians arrive.</string>
+    <string name ="title_activity_Step4"> Step 4: </string>
+    <string name="step_4_instructions">Administer chest compressions. Place hands in the center of the chest and begin compressions, hard and fast, at a rate of 100 beats per minute</string>
+    <string name ="title_activity_Step5"> Step 5: </string>
+    <string name="step_5_instructions">Recheck breathing and pulse. Is the person breathing independently again or is a pulse detectable in the carotid artery?  If so, stop compressions.  If not, continue compressions until emergency responders arrive.</string>
+    <string name ="title_activity_more_information">More information</string>
+    <string name="more_information_fine_print">"For more information visit\nhttps://github.com/sjayjay005"</string>
+</resources>
