@@ -8,6 +8,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+/**
+ * The first step when peforming CPR
+ * Screen is simple with no Images
+ */
+
 public class PerformCprActivity extends AppCompatActivity {
 
     @Override

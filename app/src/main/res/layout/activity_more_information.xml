@@ -8,15 +8,41 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jayjay.icpr.MainActivity"
-    android:background="#FFFFFF">
+    android:background="#FFFFFF"
+    android:weightSum="1">
 
 
-    <StackView
-        android:id="@+id/stackView1"
-        android:animateLayoutChanges="true"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
-    </StackView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/facebook_link"
+        android:src="@drawable/facebook_icon"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:onClick="goToFacebook"
+
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="iCPR Application"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="brought to you by sjayjay005"
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
 
 
 
