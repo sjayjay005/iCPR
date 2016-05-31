@@ -29,7 +29,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/step_3_instructions"/>
+            android:text="@string/step_3_instructions"
+            android:textSize="20sp"/>
 
     </LinearLayout>
 
@@ -39,17 +40,16 @@
         android:id="@+id/step_3_previous_button"
         android:src="@drawable/previous"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignBottom="@+id/step_3_next_button" />
+        android:layout_alignParentStart="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/next"
         android:id="@+id/step_3_next_button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignBottom="@+id/step_1_previous_button" />
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout" />
 
 
 </RelativeLayout>
